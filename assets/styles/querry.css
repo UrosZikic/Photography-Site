@@ -1,0 +1,32 @@
+@media (max-width: 48em) {
+  .catalog {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 32em) {
+  h1 {
+    font-size: 6rem;
+  }
+  strong {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .welcome-main h2 {
+    font-size: 4rem;
+  }
+  .welcome-main p {
+    font-size: 1.5rem;
+  }
+  .welcome-main a {
+    font-size: 1.5rem;
+  }
+  .form-container h2 {
+    font-size: 4rem;
+  }
+  input {
+    font-size: 2rem;
+  }
+}
